@@ -27,7 +27,8 @@ const max = (x) => {
     for(let i = 0; i < x.length; i++){
         if (x[i] > max) max = x[i];
     }
-    return max;
+    return max;   // return the maximum value
+    
 }
 
 
